@@ -112,7 +112,6 @@ navbar {
   text-align: center;
   justify-content: center;
   display: inline-block;
-  height: ;
 
 }
 .about h2 {
@@ -351,7 +350,7 @@ hr{
     padding-bottom: 2%;
   }
   .about p{
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 40px;
   }
   .about .about-icons {
@@ -378,11 +377,12 @@ hr{
   }
   .Projects h2 {
     /* margin-bottom: 2%; */
+    margin-top:50px;
     justify-content: center;
     font-size: 30px;
   }
   .Projects p{
-    font-size:15px;
+    font-size:20px;
   }
   .Projects .wrappercards {
     display: grid;
