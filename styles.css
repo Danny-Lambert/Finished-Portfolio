@@ -10,7 +10,9 @@ html {
 body {
   background-image: url(/images/image77.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  /* width: 100%;
+  height: 100vh; */
   font: normal 400 20px "Josefin Sans", sans-serif;
   background-attachment: fixed;
 }
@@ -110,6 +112,8 @@ navbar {
   text-align: center;
   justify-content: center;
   display: inline-block;
+  height: ;
+
 }
 .about h2 {
   padding-top: 5%;
@@ -129,7 +133,7 @@ navbar {
 }
 
 .Projects {
-  margin-top: 2%;
+  margin-top: 10px;
   align-items: center;
   text-align: center;
   color: white;
@@ -189,7 +193,8 @@ navbar {
   text-align: center;
   color: white;
   margin-top: 30%;
-  margin-bottom: 0%;
+  margin-bottom: 10px;
+  height: 300px;
 }
 .contact h1 {
   margin: 5%;
@@ -198,7 +203,6 @@ navbar {
   color: white;
   font-size: 20px;
   padding: 1%;
-  margin-bottom: 1%;
 }
 .contact p i {
   color: whitesmoke;
@@ -320,7 +324,7 @@ section {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 25px;
-    margin-bottom: 0%;
+    height: 100px;
   }
   .firstcontent p {
     text-align: left;
@@ -333,25 +337,34 @@ section {
     text-align: center;
     justify-content: center;
     display: inline-block;
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-left: 30px;
+    height: 500px;
   }
+hr{
+    align-items: center;
+    justify-content: center;
+}
+
   .about h2 {
-    padding-top: 5%;
+    padding-top: 50px;
     padding-bottom: 2%;
   }
   .about p{
     font-size: 15px;
+    margin-bottom: 40px;
   }
   .about .about-icons {
     padding: 2%;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    /* margin-bottom: 5%; */
+    margin-bottom: 100px;
   }
   .about .about-icons i {
     padding: 2%;
+    color: white;
     /* margin-bottom: 2%; */
   }
   
@@ -361,6 +374,7 @@ section {
     text-align: center;
     color: white;
     justify-content: center;
+    margin-left: 16px;
   }
   .Projects h2 {
     /* margin-bottom: 2%; */
@@ -417,8 +431,11 @@ section {
   .contact {
     text-align: center;
     color: white;
-    margin-top: 250px;
+    margin-top: 300px;
     font-size: 20px;
+    margin-left: 25px;
+    /* border: 2px solid yellow; */
+    height: 200px;
   }
   .contact h1 {
     margin: 5%;
